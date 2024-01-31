@@ -38,7 +38,7 @@ public class InvalidZip {
 		driver.getPageSource().contains("valid zip");
 
 		// Finally, closing driver after test is complete
-		driver.close();
+		driver.quit();
 
 	}
 

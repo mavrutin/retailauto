@@ -56,7 +56,7 @@ public class InvalidCityState {
 		 driver.getPageSource().contains(string); 
 		 
 		 // Finally, closing driver after test is complete
-		   driver.close(); 
+		 driver.quit();
 	}
 
 

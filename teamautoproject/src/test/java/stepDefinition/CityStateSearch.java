@@ -56,7 +56,7 @@ public class CityStateSearch {
 	    //throw new io.cucumber.java.PendingException();
 		driver.getPageSource().contains("Schaumburg");
 		
-		driver.close();
+		driver.quit();
 	}
 
 

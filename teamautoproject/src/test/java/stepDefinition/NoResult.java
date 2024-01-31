@@ -29,16 +29,13 @@ WebDriver driver = null;
 	    // Write code here that turns the phrase above into concrete actions
 	    //throw new io.cucumber.java.PendingException();
 		driver.findElement(By.id("search-text-input")).sendKeys("live roses");
-		
-	}
+			}
 
 	@When("User clicks search")
 	public void user_clicks_search() {
 	    // Write code here that turns the phrase above into concrete actions
 	    //throw new io.cucumber.java.PendingException();
-		driver.findElement(By.id("search-submit-button")).click();
-
-		
+		driver.findElement(By.id("search-submit-button")).click();	
 	}
 
 	@Then("User is shown no results")
@@ -47,7 +44,7 @@ WebDriver driver = null;
 	    //throw new io.cucumber.java.PendingException();
 		
 		driver.getPageSource().contains("no result"); 
-		driver.close();
+		driver.quit();
 	}
 	
 }

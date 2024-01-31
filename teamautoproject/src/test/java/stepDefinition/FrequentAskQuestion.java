@@ -24,7 +24,7 @@ public class FrequentAskQuestion {
 	public void marshalls_home_page_is_open() {
 		// Write code here that turns the phrase above into concrete actions
 		// throw new io.cucumber.java.PendingException();
-		driver.navigate().to("https://www.marshalls.com/us/store/stores/storeLocator.jsp");
+		driver.navigate().to("https://marshalls.com/us/store/index.jsp");
 	}
 
 	@When("I click in link")

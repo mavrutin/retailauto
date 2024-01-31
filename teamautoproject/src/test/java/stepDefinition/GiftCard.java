@@ -40,7 +40,7 @@ public class GiftCard {
 		// throw new io.cucumber.java.PendingException();
 		driver.getPageSource().contains("Gift Cards");
 
-		driver.close();
+		driver.quit();
 	}
 
 }

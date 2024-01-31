@@ -25,7 +25,7 @@ WebDriver driver = null;
 	public void product_page_is_open() {
 	    // Write code here that turns the phrase above into concrete actions
 	    //throw new io.cucumber.java.PendingException();
-		driver.navigate().to("https://www.marshalls.com/us/store/jump/product/beauty-accessories-beauty-accessories-handbags-made-in-italy/Made-In-Italy-Leather-Extra-Large-Bucket-Bag/4000234822?colorId=NS4155781&pos=1:2&N=884596007");
+		driver.navigate().to("https://www.marshalls.com/us/store/jump/product/beauty-accessories-beauty-accessories-handbags-luggage-travel/25in-Hardside-Character-Spinner/4000250448?colorId=NS4155705&pos=1:8&N=143024879");
 	}
 
 	@When("I click add")
@@ -41,7 +41,7 @@ WebDriver driver = null;
 	    //throw new io.cucumber.java.PendingException();
 		driver.getPageSource().contains("Added");
 				
-		driver.close();
+		driver.quit();
 	}
 
 

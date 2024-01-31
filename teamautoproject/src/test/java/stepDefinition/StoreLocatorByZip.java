@@ -49,7 +49,7 @@ public class StoreLocatorByZip {
 		driver.getPageSource().contains("Buffalo Grove");
 		
 		 // Finally, closing driver after test is complete
-		 driver.close(); 
+		driver.quit();
 	}
 	
 	

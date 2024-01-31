@@ -35,7 +35,7 @@ public class AppStore {
 	    //throw new io.cucumber.java.PendingException();
 		driver.getPageSource().contains("Marshalls Official");
 
-		driver.close();
+		driver.quit();
 		
 	}
 
